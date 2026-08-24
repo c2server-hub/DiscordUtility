@@ -9,8 +9,7 @@ IMPORTANT WARNING
 Using a user token for automated actions is strictly prohibited by Discord's
 Terms of Service. This tool is provided for educational purposes only. You are
 solely responsible for any consequences, including the permanent ban of your
-account.
-
+account. And install request "pip install requests"
 
 FEATURES
 
